@@ -13,7 +13,7 @@ public class 동전_0_11047 {
         }
 
         int count = 0;
-        for (int i = A.length - 1; i >= 0 ; i--) {
+        for (int i = N - 1; i >= 0 ; i--) {
             if(A[i] <= K) {
                 count += K / A[i];
                 K = K % A[i];
